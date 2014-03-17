@@ -1,4 +1,10 @@
 Pricecomparison::Application.routes.draw do
+
+  get "home/index"
+  get "home/about"
+  get "home/contact"
+  root 'home#index'
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
