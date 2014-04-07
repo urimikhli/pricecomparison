@@ -1,5 +1,7 @@
 Pricecomparison::Application.routes.draw do
 
+  get "amazon/categories"
+  get "amazon/products"
   get "home/index"
   get "home/about"
   get "home/contact"
